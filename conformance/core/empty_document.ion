@@ -29,19 +29,6 @@
 (ion_1_0 (each null.string (denotes)))
 
 
-(ion_1_1 (denotes))
-(ion_1_1 (produces))
-
-(ion_1_1 null.string (denotes))
-(ion_1_1 null.string (produces))
-
-(ion_1_1 (then (denotes)))
-(ion_1_1 (each (denotes)))
-
-(ion_1_1 (then null.string (denotes)))
-(ion_1_1 (each null.string (denotes)))
-
-
 (ion_1_x (denotes))
 (ion_1_x (produces))
 
