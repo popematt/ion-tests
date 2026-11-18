@@ -1,0 +1,2 @@
+// \u must be followed by exactly 4 hexadecimal digits
+"\u12"

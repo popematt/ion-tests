@@ -1,0 +1,2 @@
+// \u escapes are not allowed in clobs, including long-string clobs
+{{ '''\u0020''' }}

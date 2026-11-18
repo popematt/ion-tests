@@ -1,0 +1,58 @@
+// A backslash decoded from an escape must not start another escape.
+// Groups are lists because adjacent long strings in an s-expression are
+// concatenated.
+
+[
+  "\x5cn",
+  "\n",
+]
+
+[
+  "\u005cn",
+  "\n",
+]
+
+[
+  '''\x5cn''',
+  '''\n''',
+]
+
+[
+  "\x5cu0041",
+  "A",
+]
+
+[
+  "\u005cu0041",
+  "A",
+]
+
+[
+  '\x5cn',
+  '\n',
+]
+
+[
+  '\u005cu0041',
+  'A',
+]
+
+[
+  {'\x5cn':null},
+  {'\n':null},
+]
+
+[
+  '\x5cn'::null,
+  '\n'::null,
+]
+
+[
+  {{"\x5cn"}},
+  {{"\n"}},
+]
+
+[
+  {{"\x5cx41"}},
+  {{"A"}},
+]

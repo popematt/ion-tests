@@ -1,0 +1,2 @@
+// U+110000 is greater than the maximum Unicode code point, U+10FFFF
+'\U00110000'

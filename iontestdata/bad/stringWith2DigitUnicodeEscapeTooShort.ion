@@ -1,0 +1,2 @@
+// \x must be followed by exactly 2 hexadecimal digits
+"\x4"

@@ -1,0 +1,3 @@
+// 0xFFFFFFFF is greater than the maximum Unicode code point, U+10FFFF, and has
+// the high bit set in a 32-bit integer
+"\UFFFFFFFF"
